@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(19, 61, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#canvas {
+    background-color: red;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+}
+
+.square {
+    background-color: white;
+    width: 6.25%;
+    height: 6.25%;
+    border: 1px solid yellow;
+}
