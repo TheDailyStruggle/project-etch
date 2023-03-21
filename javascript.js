@@ -4,9 +4,14 @@ const grid = document.createElement("div");
 
 for (let i = 0; i < 256; i++) {
     const grid = document.createElement("div");
-    canvas.appendChild(grid);
     grid.classList.add('square');
-}
+    grid.addEventListener('mouseover', () => {
+        grid.style.backgroundColor = "black";
+    })
+    canvas.appendChild(grid);
+};
 
-const square = document.querySelectorAll('.square');
+
+
+
 
