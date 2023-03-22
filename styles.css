@@ -10,6 +10,14 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    margin: 15px;
+}
+
 #canvas {
     background-color: red;
     border: 5px solid black;
@@ -23,4 +31,10 @@ body {
     background-color: white;
     width: 6.25%;
     height: 6.25%;
+}
+
+#sizeBtn {
+    padding: 15px 20px;
+    font-size: 1em;
+    margin: 20px;
 }
